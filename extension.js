@@ -5,7 +5,7 @@ function activate(context) {
 		const configuration = vscode.workspace.getConfiguration()
 		configuration.update('eslint.enable', !configuration.eslint.enable, vscode.ConfigurationTarget.Global)
 
-		vscode.window.showInformationMessage(configuration.eslint.enable ? 'Disabled ESLint' : 'Enabled ESLint');
+		// vscode.window.showInformationMessage(configuration.eslint.enable ? 'Disabled ESLint' : 'Enabled ESLint');
 	});
 
 	context.subscriptions.push(disposable);
