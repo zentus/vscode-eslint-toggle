@@ -7,17 +7,16 @@
 		"vscode": "^1.63.0"
 	},
 	"categories": [
-		"Other"
+		"Linters"
 	],
 	"activationEvents": [
-        "onCommand:toggle-eslint.helloWorld"
+        "onCommand:toggle-eslint.toggle"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-            "command": "toggle-eslint.helloWorld",
-            "title": "Hello World"
-
+            "command": "toggle-eslint.toggle",
+            "title": "Toggle ESLint"
 		}]
 	},
 	"scripts": {
