@@ -11,3 +11,5 @@ Add this to your keybindings.json
     "command": "toggle-eslint.toggle"
 }
 ```
+
+Or open command palette and type "Toggle ESLint"
